@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #172b4d;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h1{
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+p{
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  width: 350px;
+}
+
+.wave{
+  background-color: #0066ff;
+  height: 200px;
+}
+
+svg{
+  position: absolute;
+  z-index: -1;
+}
+
+.container .login{
+  background-color: #f7fafc;
+  height: 30em;
+  width: 28em;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+.draft{
+  border-top: 1px solid #eaedef;
+  width: 28em;
+}
+
+h2{
+  color: #889bac;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.inputfield{
+  transition: box-shadow 0.15s ease-in-out;
+  font-family: "Open Sans", sans-serif;
+  color: #8898aa;
+  box-shadow: 1px 1px 3px #7777;
+  width: 24em;
+  height: 3.2em;
+  padding-left: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff
+}
+
+.inputfield:focus{
+  box-shadow: 1px 1px 6px #7777;
+}
+
+.button{
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px #7777;
+  width: 14em;
+  height: 3em;
+  background-color: #0066ff;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover{
+  margin-top:-1px;
+}
+
+i{
+  position: absolute;
+  padding-top: 0.87em;
+  padding-left: 10px;
+  color: #adb5bd;
+}
